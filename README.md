@@ -17,16 +17,16 @@ The first element (at the bottom of the stack) of your list should be interprete
 ### Input
 Any number of lines, and each line contains one of the commands:
 <ul>
-  <li>i <key></li>
+  <li>i (key)</li>
   <li>d</li>
-  <li>g <index></li>
+  <li>g (index)</li>
   <li>q</li>
 </ul>  
 Where:
 <ul>
   <li>i, d, g, q are identifiers of the operation,</li>
-  <li><index> is the position of an element in the list,</li>
-  <li><key> is the key of an element (value of type int to be stored in the element).</li>
+  <li>(index) is the position of an element in the list,</li>
+  <li>(key) is the key of an element (value of type int to be stored in the element).</li>
 </ul>
 You can assume that q will be always the last operation.
 
